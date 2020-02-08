@@ -8,7 +8,7 @@ Current problem statement for which development is in progress:
 A linux box can be connected to a display and it would be awesome to play youtube videos on chrome browser of this linux box. And this would in-turn require some basic interaction with videos as well like play, pause, move to next video etc.
 
 Pre-requisites:
-1. Install google-chrome, pip, python3, pip
+1. Install google-chrome, pip, python3
 2. Create a new slack bot and get token for this bot
 
 Installation Steps:
