@@ -45,6 +45,6 @@ def youtube_event(**payload):
                 hidden=False
                 )
 
-slack_token = "xoxb-942270408645-941809432772-Eow6s1dOzolTcOWCGEEHwUyg"
+slack_token = os.environ['SLACK_TOKEN']
 rtm_client = slack.RTMClient(token=slack_token)
 rtm_client.start()
