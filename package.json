@@ -1,0 +1,22 @@
+{
+  "name": "chrome-slack-bot",
+  "version": "1.0.0",
+  "description": "a slack bot to send commands to a chrome instance running on linux.",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "puppeteer-core": "^2.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "slack",
+    "chrome",
+    "slack-bot"
+  ],
+  "author": "Jayesh Kulkarni",
+  "license": "ISC"
+}
